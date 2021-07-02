@@ -6,11 +6,11 @@ namespace CodeAcademy
     {
         static void Main(string[] args)
         {
-            //WORKING WITH NUMBERS
+            /*WORKING WITH NUMBERS*/
 
-            //Introduction to Working with Numbers 
+            /*Introduction to Working with Numbers*/
 
-            // Calculating Net Income 
+            // Calculating Net Income
             double revenue = 853023.45;
             double expenses = 438374.11;
             double netIncome = revenue - expenses;
@@ -25,7 +25,7 @@ namespace CodeAcademy
             double breakEvenVolume = fixedCosts / (salesPrice - variableCostPerUnit);
             Console.WriteLine(breakEvenVolume);
 
-            //Numerical Data Types
+            /*Numerical Data Types*/
 
             // Number of pizza shops
             int pizzaShops = 4332;
@@ -39,7 +39,63 @@ namespace CodeAcademy
             // Log the values to the console:
             Console.WriteLine($"{pizzaShops}, {totalEmployees}, {revenueEmployees}");
 
-            //Built-In Methods
+            /*Arithmetic Operators*/
+
+            // Your Age
+            int userAge = 29;
+            Console.WriteLine("User age: " + userAge);
+
+            // Length of years on Jupiter (in Earth years)
+            double jupiterYears = 11.86;
+            Console.WriteLine("Length of years on Jupiter (in Earth years): " + jupiterYears);
+
+            // Age on Jupiter
+            double jupiterAge = userAge / jupiterYears;
+            Console.WriteLine("Jupiter age: " + jupiterAge);
+
+            // Time to Jupiter
+            double journeyToJupiter = 6.142466;
+            Console.WriteLine("Journey to Jupiter: " + journeyToJupiter);
+
+            // New Age on Earth
+            double newEarthAge = userAge + journeyToJupiter;
+            Console.WriteLine("New Age on Earth: " + newEarthAge);
+
+            // New Age on Jupiter
+            double newJupiterAge = newEarthAge / jupiterYears;
+            Console.WriteLine("New Age on Jupiter: " + newJupiterAge);
+
+            // Log calculations to console
+            Console.WriteLine(newEarthAge);
+            Console.WriteLine(newJupiterAge);
+
+            /*Operator Shortcuts*/
+
+            // declare steps variable
+            int steps = 0;
+
+            // Two steps forward 
+            steps += 2;
+
+            // One step back 
+            steps--;
+
+            // Print result to the console
+            Console.WriteLine(steps);
+
+            /*Modulo*/
+
+            // Number of students
+            int students = 18;
+
+            // Number of students in a group
+            int groupSize = 2;
+
+            // Does groupSize go evenly into students?
+
+            Console.WriteLine(students % groupSize);
+
+            /*Built-In Methods*/
 
             // Starting variables 
             int numberOne = 12932;
