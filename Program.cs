@@ -107,6 +107,7 @@ namespace CodeAcademy
 
             Console.WriteLine(Math.Floor(Math.Sqrt(numberOne)));
             Console.WriteLine(Math.Floor(Math.Sqrt(numberTwo)));
+
         }
     }
 }
